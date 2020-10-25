@@ -70,7 +70,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	messages := []string{"Data from Emissary\n--------"}
+	messages := []string{"--------"}
 
 	if opts.stdin {
 		count := 0
